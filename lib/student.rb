@@ -5,4 +5,5 @@ require 'interactive_record.rb'
 class Student < InteractiveRecord
   def column_names
     attr_accessor :id = nil, :name, :grade
+  end
 end
